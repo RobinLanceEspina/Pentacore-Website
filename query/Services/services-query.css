@@ -1,0 +1,63 @@
+@media (min-width: 100px) and (max-width: 499px){
+    .portfolio-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 8rem 1rem;
+        row-gap: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .port-image {
+        margin-top: -1.5rem;
+        width: 400px; /* Set the width of the port-div */
+        height: 10rem; /* Set the height of the port-div */
+        overflow: hidden; /* Ensure the image doesn't overflow its container */
+    }
+
+    .port-image-below {
+        margin-bottom: -1.5rem;
+        width: 400px; /* Set the width of the port-div */
+        height: 10rem; /* Set the height of the port-div */
+        overflow: hidden; /* Ensure the image doesn't overflow its container */
+    }
+
+    .img-design-port {
+        width: 100%; /* Make the image fill the width of the port-div */
+        height: 100%; /* Make the image fill the height of the port-div */
+        object-fit: cover; /* Ensure the image covers the entire area without distortion */
+    }
+}
+
+
+
+
+@media (min-width: 500px) and (max-width: 800px){
+    .portfolio-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 2rem 0px;
+        row-gap: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .port-image {
+        margin-top: -1.5rem;
+        width: 400px; /* Set the width of the port-div */
+        height: 10rem; /* Set the height of the port-div */
+        overflow: hidden; /* Ensure the image doesn't overflow its container */
+    }
+
+    .port-image-below {
+        margin-bottom: -1.5rem;
+        width: 400px; /* Set the width of the port-div */
+        height: 10rem; /* Set the height of the port-div */
+        overflow: hidden; /* Ensure the image doesn't overflow its container */
+    }
+
+    .img-design-port {
+        width: 100%; /* Make the image fill the width of the port-div */
+        height: 100%; /* Make the image fill the height of the port-div */
+        object-fit: cover; /* Ensure the image covers the entire area without distortion */
+    }
+}
+

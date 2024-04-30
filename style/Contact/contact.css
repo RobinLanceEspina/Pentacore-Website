@@ -1,0 +1,160 @@
+
+input{
+    font-family: montserrat;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.3);
+}
+
+/**********USER INPUT PART***************************/
+.user-input{
+    margin: 20px 300px;
+}
+
+.center-inquiries{
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px;
+
+}
+
+.container-image{
+    width: 80px;
+}
+
+.message-icon{
+    width: 100%;
+}
+
+.text-message-us{
+    line-height: 1.5;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.input-grid{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.center-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.input-left{
+    padding: 17px;
+    width: 90%;
+}
+
+.input-right{
+    padding: 17px;
+    width: 90%;
+}
+
+.input-message{
+    padding: 17px;
+    width: 95%;
+    height: 100px;
+}
+
+.input-message::placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.submit-button{
+    padding: 15px;
+    padding-right: 33px;
+    border:none;
+    font-size: 15px;
+    color: white;
+    background-color: #D2153D;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.3);
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.google-map{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+/**********Contact Info*************************/
+
+.triple-grid{
+    display: grid;
+    grid-template-columns: 3.3fr 2fr 3fr;
+    gap: 1rem;
+    margin: 5% 5%;
+}
+
+.address-card{
+    border-left: 0.4rem solid #D2153D;
+    background-color: white;
+    width: 100%;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.3);
+}
+
+.text-padding-company{
+    padding: 2.5rem;
+}
+
+.text-address{
+    margin-top: 0.3rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.double-grid-chat{
+    display: grid;
+    grid-template-columns: 3.5rem 1fr;
+    column-gap: 1rem;
+    width: 1rem;
+}
+
+
+.double-grid-contact{
+    display: grid;
+    grid-template-columns: 3.5rem 1fr;
+    column-gap: 1rem;
+}
+
+.contact-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D2153D;
+    width: 100%;
+    height: 3.5rem;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.3);
+
+}
+
+.chat-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e008a;
+    width: 100%;
+    height: 3.5rem;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.3);
+
+}
+
+.contact-number{
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    font-weight: bold;
+}

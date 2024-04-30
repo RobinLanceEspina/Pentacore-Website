@@ -1,0 +1,119 @@
+/*************************
+**********profile*******
+**************************/
+.special-works{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-works{
+    color:rgb(175, 0, 23);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.text-special{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.whole-lower{
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+.lower-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-preview{
+    width: 100%;     
+}
+
+.grid-view-1{
+    background-color: aqua;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+}
+
+.container .image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container .image-container .image {
+    height: 18rem;
+    width: 25rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.55);
+    transition: all 0.3s ease;
+}
+
+.container .image-container .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.container .image-container .image:hover img {
+    transform: scale(1.03);
+}
+
+.popup-image {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(7, 7, 7, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup-content img {
+    width: 750px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.close-btn:hover {
+    opacity: 50%;
+}

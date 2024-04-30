@@ -1,0 +1,88 @@
+@media (min-width: 100px) and (max-width: 499px){
+    .text-container{
+        top: 20%;
+        transition: all 0.3s ease;
+    }
+
+    .text-penta{
+        font-size: 3rem;
+        transition: all 0.3s ease;
+    }
+
+    .text-width{
+        width: 20rem;
+        transition: all 0.3s ease;
+    }
+
+    .text-title{
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .text-parag{
+        font-size: 0.8rem;
+        transition: all 0.3s ease;
+    }
+
+    .information-container{
+        gap: 1rem;
+        width: 22rem;
+        transition: all 0.3s ease;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 855px){
+    .text-penta{
+        font-size: 4.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .text-width{
+        width: 29rem;
+        transition: all 0.3s ease;
+    }
+
+    .text-parag{
+        font-size: 0.9rem;
+        transition: all 0.3s ease;
+    }
+
+    .text-title{
+        font-size: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .information-container{
+        gap: 2rem;
+        width: 25rem;
+        transition: all 0.3s ease;
+    }
+}
+
+@media (min-width: 856px) and (max-width: 1900px){
+    .text-penta{
+        font-size: 5.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .text-width{
+        width: 50rem;
+        transition: all 0.3s ease;
+    }
+
+    .text-parag{
+        font-size: 0.9rem;
+        transition: all 0.3s ease;
+    }
+
+    .text-title{
+        font-size: 2rem;
+        transition: all 0.3s ease;
+    }
+
+    .information-container{
+        gap: 2rem;
+        width: 25rem;
+        transition: all 0.3s ease;
+    }
+}

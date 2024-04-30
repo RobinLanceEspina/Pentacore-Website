@@ -1,0 +1,25 @@
+.center-port{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 20px;
+    margin: 100px 0px;
+}
+
+.port-div {
+    width: 300px; /* Set the width of the port-div */
+    height: 400px; /* Set the height of the port-div */
+    overflow: hidden; /* Ensure the image doesn't overflow its container */
+}
+
+.img-design-port {
+    width: 100%; /* Make the image fill the width of the port-div */
+    height: 100%; /* Make the image fill the height of the port-div */
+    object-fit: cover; /* Ensure the image covers the entire area without distortion */
+}
+

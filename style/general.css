@@ -1,0 +1,47 @@
+body{
+    font-family: montserrat;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(235, 235, 235, 0.192);
+    min-width: 100%;
+    overflow-x: hidden;
+}
+
+p{
+    margin: 0px;
+    color: #16213E
+}
+
+.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: #000c22;
+    opacity: 0.3;
+}
+
+.center-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-body{
+    margin: 0px;
+}
+
+button{
+    font-family: montserrat;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+button:hover{
+    opacity: 80%;
+}
+
+
+

@@ -1,0 +1,47 @@
+.blue-container{
+    background-color: #00215B;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+
+.footer-pentacore{
+    width: 100%;
+}
+
+.pentacore-container{
+    width: 20rem;
+}
+
+.list-info{
+    color: white;
+    MARGIN-TOP: 5px;
+}
+
+.list-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.text-contact{
+    font-weight:lighter;
+    color: white;
+    font-weight: bold;
+}
+
+.text-builder{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text-copyright{
+    margin-top: 2rem;
+    color: white;
+    font-size: 0.8rem;
+}

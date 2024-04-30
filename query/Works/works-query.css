@@ -1,0 +1,163 @@
+@media (min-width: 100px) and (max-width: 499px){
+    .container .image-container {
+        grid-template-columns: 1fr;
+        
+    }
+
+    .container .image-container .image {
+        height: 14rem;
+        width: 21rem;
+        transition: all 0.3s ease;
+        border-radius: 1rem;
+    }
+
+    .text-special{
+        font-size: 1.7rem;
+        transition: all 0.3s ease;
+    }  
+
+    .text-works{
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 699px){
+    .container .image-container {
+        grid-template-columns: 1fr;
+    }
+
+    .container .image-container .image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: .2s linear;
+        padding: 0px;
+        border-radius: 1rem;
+    }
+
+    .container .image-container .image {
+        height: 100%;
+        width: 100%;    
+        transition: all 0.3s ease;
+        border-radius: 1rem;
+    }
+
+    .text-special{
+        font-size: 2.3rem;
+        transition: all 0.3s ease;
+    }
+
+    .text-works{
+        color:rgb(175, 0, 23);
+        font-size: 1.3rem;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+
+    .whole-lower{
+        margin-top: 1rem;
+    }
+}
+
+
+@media (min-width: 700px) and (max-width: 1004px){
+    .container .image-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: 0rem 1rem;
+        padding: 0px;
+    }
+
+    .container .image-container .image {
+        height: 18rem;
+        width: 100%;    
+        transition: all 0.3s ease;
+    }
+
+    .text-special{
+        font-size: 2.3rem;
+        transition: all 0.3s ease;
+        margin-bottom: 2rem;
+    }
+
+    .whole-lower{
+        margin: 0rem 1rem;
+    }
+    
+    .text-works{
+        color:rgb(175, 0, 23);
+        font-size: 1.3rem;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+}
+
+
+
+@media (min-width: 1005px) and (max-width: 1499px){
+    .container .image-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: 0rem 1rem;
+        padding: 0px;
+    }
+
+    .container .image-container .image {
+        height: 18rem;
+        width: 100%;    
+        transition: all 0.3s ease;
+    }
+
+    .text-special{
+        font-size: 2.3rem;
+        transition: all 0.3s ease;
+        margin-bottom: 2rem;
+    }
+
+    .whole-lower{
+        margin: 0rem 1rem;
+    }
+    
+    .text-works{
+        color:rgb(175, 0, 23);
+        font-size: 1.3rem;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1700px){
+    .container .image-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    .container .image-container .image {
+        height: 20rem;
+        width: 22rem;
+        transition: all 0.3s ease;
+    }
+
+    .text-special{
+        font-size: 3rem;
+        transition: all 0.3s ease;
+    }
+}
+
+@media (min-width: 1701px) and (max-width: 2000px){
+    .container .image-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    .container .image-container .image {
+        height: 20rem;
+        width: 27rem;
+        transition: all 0.3s ease;
+    }
+
+    .text-special{
+        font-size: 3rem;
+        transition: all 0.3s ease;
+    }
+}
+

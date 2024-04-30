@@ -1,0 +1,379 @@
+.inside-header-text{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.inside-header-text-home{
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.first-section{
+    margin-bottom: 1rem;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 51rem;
+}
+
+.home-video{
+    filter: brightness(20%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.55);
+}
+
+
+/*TOP HEADER TEXT********************/
+
+.text-container{
+    position: absolute;
+    top: 30%;
+}
+
+.text-width{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50rem;
+}
+
+.text-penta{
+    font-weight: bolder;
+    font-size: 5.5rem;
+    color: white;
+}
+
+.text-title{
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+.text-parag{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1;
+    color: white;
+    line-height: 1.5;
+}
+
+.button-learn-more{
+    padding: 1rem 30px;
+    color:white;
+    background-color: transparent;
+    font-family: montserrat;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: font-size 0.2s;
+    height: 6rem;
+}
+
+.button-learn-more:hover{
+    padding: 13px 30px;
+    color:white;
+    background-color: transparent;
+    font-family: montserrat;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    height: 6rem;
+}
+
+
+/*blue and white square********************/
+
+.whole-information{
+    position: absolute;
+    left: 50%;
+    bottom: 1rem;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    line-height: 1.5; 
+}
+
+.information-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #00215B;
+    width: 100%;
+    height: 7.5rem;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.55);
+}
+
+.pink-square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #012d77;
+    width: 100%;
+    height: 7.5rem;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.55);
+}
+
+.text-large-number{
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;    
+}
+
+.text-completed{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.text-number-padding{
+    padding: 20px;
+}
+
+/*white square********************/
+.second-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.whole-about-us{
+    margin-left: 2rem;
+}
+
+.white-square{
+    background-color: white;
+    height: 25rem;
+    width: 24rem;
+    padding:  1rem 2rem;
+    border-top: 0.5rem solid #00215B;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.55);
+}
+
+.text-we{
+    color: #00215B;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 1rem 0rem;
+}
+
+.double-grid{
+    display: grid;
+    grid-template-columns: 2.7rem 1fr;
+    gap: 1rem 1rem;
+}
+
+.pink-image{
+    width: 100%;
+}
+
+.pink-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.pink-text{
+    font-size: 0.8rem;
+}
+
+
+/*************************
+**********ABOUT US********
+**************************/
+
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 38rem;
+    margin: 5rem 25rem; 
+    gap: 1rem;
+    transition: all 0.3s ease;
+
+}
+
+.text-about{
+    color:#D2153D;
+    font-weight: bold;
+}
+
+.text-who{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.text-commited{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.text-delivering{
+    font-size: 1rem;
+}
+
+.button-more{
+    padding: 1rem;
+    font-size: 0.9rem;
+    background: #00215B;
+    color: white;
+    border: none;
+    margin-top: 1.8rem;
+    width: 9rem;
+}
+
+.learn-more{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/*************************
+**********BLUE BAR*******
+**************************/
+
+
+
+.middle-bar-blue{
+    display: grid;
+    grid-template-columns: 2.3fr 1fr 1fr 1fr; 
+    margin-bottom: 5rem;
+    height: 30rem;
+}
+
+.div-1{
+    display: grid;
+}
+
+.preview-image{
+    display: grid;
+    width: 100%;
+    height: 34rem;
+    object-fit: cover;
+}
+
+.div-2{
+    height: 100%;
+    background-image: url(../../Images/blue/div1.avif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.div-3{
+    height: 100%;
+    background-image: url(../../Images/blue/div2.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-4{
+    height: 100%;
+    background-image: url(../../Images/blue/div3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-color{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #00215B;
+    opacity: 80%;
+}
+
+.bg-color-gray{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(63, 62, 62);
+    opacity: 70%;
+}
+
+
+.flex{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 0px 2rem;
+}
+
+.bar-title{
+    margin-top: 25%;
+    color: white;
+    opacity: 1;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.bar-text{
+    margin-top: 3rem;
+    color: white;
+    opacity: 100%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.works{
+    margin-top: 10rem;
+}
+
+/*************************
+**********map*******
+**************************/
+.triple-container{
+    margin: 0rem 10rem;
+}
+
+.text-find{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.img-container{
+    width: 4rem;
+}
+
+.img-location{
+    width: 100%;
+}
+
+.container-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}
+

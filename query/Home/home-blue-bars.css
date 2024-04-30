@@ -1,0 +1,244 @@
+@media (min-width: 100px) and (max-width: 499px){
+    .middle-bar-blue{
+        grid-template-columns: 1fr; 
+        gap: 1rem;
+        height: 30rem;
+        transition: all 0.3s ease;
+        margin: 0rem 1rem;
+        margin-bottom: 49rem;
+    }
+
+    .bar-title{
+        margin-top: 2rem;
+        font-size: 1.9rem;
+        transition: all 0.3s ease;
+    }
+    
+    .bar-text{
+        margin: 1rem 1rem 2rem 1rem;
+        font-size: 0.75rem;
+        line-height: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .preview-image{
+        width: 100%;
+        height: 15rem;
+        transition: all 0.3s ease;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 599px){
+    .middle-bar-blue{
+        grid-template-columns: 1fr; 
+        gap: 1rem;
+        height: 30rem;
+        transition: all 0.3s ease;
+        margin: 0rem 1rem;
+        margin-bottom: 50rem;
+        }
+
+    .bar-title{
+        margin-top: 2rem;
+        font-size: 1.9rem;
+        transition: all 0.3s ease;
+    }
+    
+    .bar-text{
+        margin: 1rem 1rem 3rem 1rem;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .preview-image{
+        width: 100%;
+        height: 20rem;
+        transition: all 0.3s ease;
+    }
+    
+}
+
+@media (min-width: 600px) and (max-width: 699px){
+    .middle-bar-blue{
+        grid-template-columns: 1fr; 
+        gap: 1rem;
+        height: 30rem;
+        transition: all 0.3s ease;
+        margin: 0rem 1rem;
+        margin-bottom: 45rem;
+    }
+
+    .bar-title{
+        margin-top: 2rem;
+        font-size: 1.9rem;
+        transition: all 0.3s ease;
+    }
+    
+    .bar-text{
+        margin: 1rem 1rem 3rem 1rem;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .preview-image{
+        width: 100%;
+        height: 20rem;
+        transition: all 0.3s ease;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 799px){
+    .middle-bar-blue{
+        grid-template-columns: 1fr; 
+        gap: 1rem;
+        height: 30rem;
+        transition: all 0.3s ease;
+        margin: 0rem 1rem;
+        margin-bottom: 40rem;
+    }
+
+    .bar-title{
+        margin-top: 2rem;
+        font-size: 1.9rem;
+        transition: all 0.3s ease;
+    }
+    
+    .bar-text{
+        margin: 1rem 1rem 3rem 1rem;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .preview-image{
+        width: 100%;
+        height: 20rem;
+        transition: all 0.3s ease;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 899px){
+    .middle-bar-blue{
+        grid-template-columns: 1fr; 
+        gap: 1rem;
+        height: 30rem;
+        transition: all 0.3s ease;
+        margin: 0rem 1rem;
+        margin-bottom: 37rem;
+    }
+
+    .bar-title{
+        margin-top: 2rem;
+        font-size: 1.9rem;
+        transition: all 0.3s ease;
+    }
+    
+    .bar-text{
+        margin: 1rem 1rem 3rem 1rem;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .preview-image{
+        width: 100%;
+        height: 20rem;
+        transition: all 0.3s ease;
+    }
+}
+
+
+@media (min-width: 900px) and (max-width: 999px){
+    .middle-bar-blue{
+        grid-template-columns: 1fr 1fr; 
+        gap: 0.5rem;
+        height: 30rem;
+        transition: all 0.3s ease;
+        margin: 0rem 0.5rem;
+        margin-bottom: 12rem;
+    }
+
+    .bar-title{
+        margin-top: 2rem;
+        font-size: 1.9rem;
+        transition: all 0.3s ease;
+    }
+    
+    .bar-text{
+        margin: 2rem 2rem 3rem 2rem;
+        font-size: 0.75rem;
+        line-height: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .preview-image{
+        width: 100%;
+        height: 20rem;
+        transition: all 0.3s ease;
+    }
+}
+
+
+@media (min-width: 1000px) and (max-width: 1499px){
+    .middle-bar-blue{
+        grid-template-columns: 1fr 1fr; 
+        gap: 0.5rem;
+        height: 30rem;
+        transition: all 0.3s ease;
+        margin: 0rem 0.5rem;
+        margin-bottom: 18rem;
+
+    }
+
+    .bar-title{
+        margin-top: 2rem;
+        font-size: 1.9rem;
+        transition: all 0.3s ease;
+    }
+    
+    .bar-text{
+        margin: 2rem 2rem 5rem 2rem;
+        font-size: 0.rem;
+        line-height: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .preview-image{
+        width: 100%;
+        height: 22rem;
+        transition: all 0.3s ease;
+    }
+}
+
+
+
+
+
+@media (min-width: 1500px) and (max-width: 1900px){
+    .middle-bar-blue{
+        grid-template-columns: 2.3fr 1fr 1fr 1fr; 
+        height: 30rem;
+        transition: all 0.3s ease;
+    }
+
+    .bar-title{
+        margin-top: 25%;
+        font-size: 1.9rem;
+        transition: all 0.3s ease;
+    }
+    
+    .bar-text{
+        margin-top: 3rem;
+        font-size: 0.95rem;
+        line-height: 1.5rem;
+        transition: all 0.3s ease;
+    }
+
+    .preview-image{
+        width: 100%;
+        height: 35rem;
+        transition: all 0.3s ease;
+    }
+}

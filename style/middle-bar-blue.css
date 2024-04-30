@@ -1,0 +1,83 @@
+.middle-bar-blue{
+    display: grid;
+    grid-template-columns: 2.3fr 1fr 1fr 1fr; 
+    margin-top: 460px;
+}
+
+.div-1{
+    display: grid;
+}
+
+.preview-image{
+    display: grid;
+    width: 100%;
+    height: 450px;
+}
+
+.div-2{
+    height: 100%;
+    background-image: url(../Images/blue/div1.avif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.div-3{
+    height: 100%;
+    background-image: url(../Images/blue/div2.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-4{
+    height: 100%;
+    background-image: url(../Images/blue/div3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-color{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #00215B;
+    opacity: 80%;
+}
+
+.bg-color-gray{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(63, 62, 62);
+    opacity: 70%;
+}
+
+
+.flex{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+.bar-title{
+    margin-top: 25%;
+    color: white;
+    opacity: 100%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.bar-text{
+    margin-top: 40px;
+    color: white;
+    opacity: 100%;
+    font-size: 14px;
+    line-height: 25px;
+}

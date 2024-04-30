@@ -1,0 +1,88 @@
+.inside-header-text{
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+.center-port{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 120px 0px;
+    transition: all 0.3s ease;
+}
+
+.port-image-below {
+    width: 400px; /* Set the width of the port-div */
+    height: 280px; /* Set the height of the port-div */
+    overflow: hidden; /* Ensure the image doesn't overflow its container */
+}
+
+.port-image {
+    width: 400px; /* Set the width of the port-div */
+    height: 280px; /* Set the height of the port-div */
+    overflow: hidden; /* Ensure the image doesn't overflow its container */
+}
+
+.port-div {
+    width: 400px; /* Set the width of the port-div */
+    height: 280px; /* Set the height of the port-div */
+    overflow: hidden; /* Ensure the image doesn't overflow its container */
+}
+
+.img-design-port {
+    width: 100%; /* Make the image fill the width of the port-div */
+    height: 100%; /* Make the image fill the height of the port-div */
+    object-fit: cover; /* Ensure the image covers the entire area without distortion */
+}
+
+.color-div{
+    position: relative;
+    background-color: #00215B;
+    width: 100%; /* Make the image fill the width of the port-div */
+    height: 100%; /* Make the image fill the height of the port-div */
+}
+
+.text-title-service{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.text-service{
+    color: white;
+    font-size: 13px;
+    padding: 10px 40px;
+    margin: 0;
+}
+
+.service-learn-more{
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid white;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.service-learn-more:hover{
+    font-weight: bold;
+    color: #00215B;
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid #00215B;
+}
+
+.position-service-button{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+}

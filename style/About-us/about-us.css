@@ -1,0 +1,316 @@
+.inside-header-text{
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+
+/*GROUP IMAGE PHOTO PART*/
+/*GROUP IMAGE PHOTO PART*/
+/*GROUP IMAGE PHOTO PART*/
+
+
+.about-middle-section{
+    margin: 90px 0px;
+    display: grid;
+    grid-template-columns: 0.75fr 1fr;
+}
+
+.group-image-container{
+    position: relative;
+    width: 300px;
+}
+
+.group-img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.75);
+    border-radius: 10px;
+
+
+}
+
+.years-text-container{
+    position: absolute;
+    bottom: -8px;
+    left: -10px;
+    background-color: rgba(255, 196, 0, 0.9);
+    padding: 10px;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.5);
+}
+
+.position-only{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.years {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin: 0; 
+}
+
+.xp {
+    font-size: 12px;
+    color: white;
+    margin: 0; 
+}
+
+.center{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+
+
+
+
+.about-right{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 90px;
+}
+
+.about-text{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(29, 0, 156);
+}
+
+.were-text{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.gray-section{
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    margin: 30px 0px;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.3);
+
+}
+
+
+.ending-text{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.button-learn-more{
+    margin-top: 20px;
+    padding: 15px 30px;
+    color:white;
+    background-color: #00215B;
+    font-weight: bold;
+    font-family: montserrat;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    width: 200px;
+}
+
+.button-learn-more:hover{
+    opacity: 80%;
+}
+
+
+/*last last last LASR T LAST*/
+/*last last last LASR T LAST*/
+/*last last last LASR T LAST*/
+/*last last last LASR T LAST*/
+/*last last last LASR T LAST*/
+
+.last-position{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-image-container {
+    height: 750px; /* Set the height of the div */
+    overflow: hidden; /* Hide overflowing content */
+    position: relative;
+    border-radius: 10px;
+}
+
+.last-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-image {
+    width: 100%; 
+    object-fit: cover;
+    object-position: top;    
+}
+
+.last-text-position{
+    width: 700px;
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.last-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-quote{
+    color: white;
+    font-size: 25px;
+}
+
+.text-future{
+    font-weight: bolder;
+    color: white;
+    font-size: 35px;
+    margin: 15px;
+}
+
+.text-embark{
+    display: flex;
+    color: white;
+    font-size: 15px;
+}
+
+
+/********THE THREE********************/
+
+.center-quality-three-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 200px;
+}
+
+.center-quality{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1%;
+}
+
+.container-high-quality{
+    background-color: white;
+    padding: 15px;
+    width: 430px;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.3);
+
+}
+
+.detail-quality{
+    background-color: red;
+    padding: 20px;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.3);
+
+}
+
+.tech-quality{
+    background-color: aqua;
+    padding: 20px;
+    box-shadow: 2px 7px 27px -9px rgba(0,0,0,0.3);
+}
+
+.two-grid{
+    display: grid;
+    grid-template-columns: 85px 1fr;
+}
+
+.blue-card{
+    border-radius: 3px;
+    background-color: #00215B;
+    padding: 13px 15px;
+}
+
+.quality-margin{
+    margin-left: 20px;
+}
+
+.title-quality{
+    font-weight: bold;
+    font-size: 17px;
+    margin: 8px 0px;
+}
+
+.text-quality{
+    font-size: 15px;
+    margin: 0;
+}
+
+.img-quality{
+    width: 100%;
+}
+
+.color-overlayed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: #000c22;
+    opacity: 0.6;
+}
+
+
+/***************CONTACT BUTTON*************/
+.contact-text{
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.button-contact{
+    padding: 15px 18px;
+    margin-top: 20px;
+    background-color: #002e7c;
+    border: none;
+}
+
+.button-contact:hover{
+    padding: 15px 18px;
+    margin-top: 20px;
+    background-color: #002e7c;
+    border: none;
+}
+
+
+.contact-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.phone-img{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
